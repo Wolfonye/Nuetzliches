@@ -1,4 +1,10 @@
-header {
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+body > header:first-of-type {
     box-sizing: border-box;
     background-color: green;
     min-height: 50px;
@@ -45,10 +51,4 @@ footer {
 }
 html {
     height: 100%;
-}
-body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
 }
