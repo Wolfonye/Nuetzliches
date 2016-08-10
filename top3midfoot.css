@@ -1,4 +1,10 @@
+@font-face {
+    font-family: meinErsterFont;
+    src: url(KingthingsXander.ttf);
+}
+
 body {
+    font-family: meinErsterFont;
     height: 100%;
     margin: 0;
     display: flex;
