@@ -1,0 +1,38 @@
+html {
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    border: 2px solid red;
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: [kopfleiste] 100px [navigation] 50px [mittelteil] 1fr [fussleiste]50px;
+    grid-template-columns: 80% [sidebar] 20%;
+    grid-template-areas: "kopf kopf"
+                         "navi navi"
+                         "mitte seite"
+                         "fuss fuss";
+}
+header {
+    background-color: red;
+    grid-area: kopf;
+}
+nav {
+    background-color: lightgreen;
+    grid-area: navi;
+}
+article {
+    background-color: blue;
+    grid-area: mitte;
+}
+aside {
+    background-color: green;
+    grid-area: seite;
+}
+footer {
+    background-color: yellow;
+    grid-area: fuss;
+}
