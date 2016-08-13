@@ -16,7 +16,7 @@ body {
     display: grid;
     grid-gap: 20px;
     grid-template-rows: [kopfleiste] 100px [navigation] 50px [mittelteil] 1fr [fussleiste]50px;
-    grid-template-columns: 80% [sidebar] 20%;
+    grid-template-columns: 80% [sidebar] 1fr;
     grid-template-areas: "kopf kopf"
                          "navi navi"
                          "mitte seite"
