@@ -1,0 +1,7 @@
+Ctrl+Shift+P    - Command Palette (Kommandos ausführen mit praktischer Suche)
+Alt+Shift+B     - Auskommentieren (blockweise) gewisse Fehler in decomment in HTML
+Ctrl+T          - Fuzzy Finder (Dateien suchen)
+Alt+Shift+P     - Project Manager (Projekte auflisten)
+Ctrl+Space      - verfügbare autocompletes anzeigen
+Ctrl+D          - nächstes Auftreten des markierten Textes selektieren (additiv)
+Ctrl+U          - letztes Auftreten eines mehrfach selektierten Textes deselektieren/einfecher deselect
