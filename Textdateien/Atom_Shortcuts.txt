@@ -8,7 +8,7 @@ Ctrl+T          - Fuzzy Finder (Dateien suchen)
 Alt+Shift+P     - Project Manager (Projekte auflisten)
 Ctrl+Space      - verfügbare autocompletes anzeigen
 Ctrl+D          - nächstes Auftreten des markierten Textes selektieren (additiv)
-Ctrl+U          - letztes Auftreten eines mehrfach selektierten Textes deselektieren/einfecher deselect
+Ctrl+U          - letztes Auftreten eines mehrfach selektierten Textes deselektieren/einfacher deselect
 Ctrl+G          - zu Zeile springen
 Ctrl+Alt+F2     - Bookmark erzeugen
 Ctrl+F2         - Bookmark suchen/listen
@@ -17,3 +17,4 @@ Shift+F2        - zu voriger Bookmark springen
 Ctrg+Shift+Enter- Todo-files, neues item oberhalb
 Shift+Enter     - Todo-files, neues item unterhalb
 Shift+D         - Todo-files, zum Abhaken eines items (es geht auch mehrfachselektion)
+Ctrl+Tab        - Springen zwischen tabs in Atom
